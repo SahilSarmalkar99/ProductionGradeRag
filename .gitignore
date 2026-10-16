@@ -1,0 +1,78 @@
+
+# =========================
+# Frontend (React / Vite / Node.js)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+frontend/.vite/
+frontend/.turbo/
+
+# Frontend environment variables
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+!frontend/.env.sample
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/pnpm-debug.log*
+frontend/*.log
+
+# =========================
+# Python Backend (Flask / FastAPI)
+# =========================
+backend/venv/
+backend/.venv/
+backend/env/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/*.so
+
+# Python packaging
+backend/build/
+backend/dist/
+backend/*.egg-info/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Backend environment variables
+backend/.env
+backend/.env.*
+!backend/.env.example
+!backend/.env.sample
+
+# =========================
+# Secrets and credentials
+# =========================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# =========================
+# IDE and operating system
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.bak
